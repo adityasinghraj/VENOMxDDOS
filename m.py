@@ -8,10 +8,10 @@ import os
 from keep_alive import keep_alive
 keep_alive()
 # insert your Telegram bot token here
-bot = telebot.TeleBot('TOKEN')
+bot = telebot.TeleBot('7440817623:AAH2fmzCDeQ7A7PBW2xVmQJiTIiGqjwn56A')
 
 # Admin user IDs
-admin_id = ["Your Id"]
+admin_id = ["7055427982"]
 
 # File to store allowed user IDs
 USER_FILE = "users.txt"
@@ -275,7 +275,7 @@ def show_recent_logs(message):
 
 
 # Function to handle the reply when free users run the /bgmi command
-def start_attack_reply(message, target, port, time):
+def start_attack_reply(message, target, port, time):2000
     user_info = message.from_user
     username = user_info.username if user_info.username else user_info.first_name
     
